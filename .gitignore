@@ -1,0 +1,7 @@
+# Archivos que Git debe ignorar
+
+.env
+
+node_modules/
+
+dist/
