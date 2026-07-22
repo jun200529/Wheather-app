@@ -197,3 +197,193 @@ main{
     font-weight:600;
 
 }
+
+/* ========================= */
+/* WEATHER CARD */
+/* ========================= */
+
+.weather-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.weather-card h2{
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+}
+
+.weather-card img{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}
+
+.weather-card h3{
+
+    font-size:4rem;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+.weather-card p{
+
+    font-size:1.2rem;
+
+    color:var(--text-secondary);
+
+}
+
+/* ========================= */
+/* DETAILS */
+/* ========================= */
+
+.details{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+.detail-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+}
+
+.detail-card h4{
+
+    margin-bottom:15px;
+
+    color:var(--text-secondary);
+
+    font-weight:500;
+
+}
+
+.detail-card p{
+
+    font-size:1.5rem;
+
+    font-weight:600;
+
+}
+
+/* ========================= */
+/* FORECAST */
+/* ========================= */
+
+.forecast{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.forecast h2{
+
+    margin-bottom:25px;
+
+}
+
+#forecastContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+
+    gap:20px;
+
+}
+
+/* ========================= */
+/* FAVORITES */
+/* ========================= */
+
+.favorites{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.favorites h2{
+
+    margin-bottom:25px;
+
+}
+
+#favoritesContainer{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    color:var(--text-secondary);
+
+}
