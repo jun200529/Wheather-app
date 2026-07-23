@@ -1,0 +1,99 @@
+/* ========================= */
+/* TABLETS */
+/* ========================= */
+
+@media(max-width:992px){
+
+    header{
+
+        padding:20px 5%;
+
+    }
+
+    main{
+
+        width:95%;
+
+    }
+
+    .details{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ========================= */
+/* CELULARES */
+/* ========================= */
+
+@media(max-width:768px){
+
+    header{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .search-box{
+
+        flex-direction:column;
+
+    }
+
+    .search-box button{
+
+        width:100%;
+
+    }
+
+    .details{
+
+        grid-template-columns:1fr;
+
+    }
+
+    #forecastContainer{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+/* ========================= */
+/* CELULARES PEQUEÑOS */
+/* ========================= */
+
+@media(max-width:480px){
+
+    .logo{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .logo h1{
+
+        font-size:1.4rem;
+
+    }
+
+    .weather-card h3{
+
+        font-size:3rem;
+
+    }
+
+    #forecastContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
