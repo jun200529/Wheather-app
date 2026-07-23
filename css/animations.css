@@ -1,0 +1,155 @@
+/* ========================= */
+/* TRANSICIONES GLOBALES */
+/* ========================= */
+
+body,
+header,
+section,
+button,
+input,
+.weather-card,
+.detail-card,
+.forecast,
+.favorites{
+
+    transition:all .3s ease;
+
+}
+
+/* ========================= */
+/* LOGO */
+/* ========================= */
+
+.logo img{
+
+    transition:transform .35s ease;
+
+}
+
+.logo:hover img{
+
+    transform:rotate(-8deg) scale(1.08);
+
+}
+
+/* ========================= */
+/* BOTONES */
+/* ========================= */
+
+.search-box button{
+
+    transition:all .3s ease;
+
+}
+
+.search-box button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(59,130,246,.35);
+
+}
+
+.search-box button:active{
+
+    transform:scale(.96);
+
+}
+
+/* ========================= */
+/* INPUT */
+/* ========================= */
+
+.search-box input{
+
+    transition:all .3s ease;
+
+}
+
+.search-box input:focus{
+
+    box-shadow:0 0 0 4px rgba(59,130,246,.25);
+
+}
+
+/* ========================= */
+/* WEATHER CARD */
+/* ========================= */
+
+.weather-card{
+
+    transition:all .35s ease;
+
+}
+
+.weather-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+/* ========================= */
+/* DETAIL CARD */
+/* ========================= */
+
+.detail-card{
+
+    transition:all .35s ease;
+
+}
+
+.detail-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--primary);
+
+}
+
+/* ========================= */
+/* FORECAST */
+/* ========================= */
+
+.forecast{
+
+    transition:all .35s ease;
+
+}
+
+.forecast:hover{
+
+    transform:translateY(-6px);
+
+}
+
+/* ========================= */
+/* FAVORITES */
+/* ========================= */
+
+.favorites{
+
+    transition:all .35s ease;
+
+}
+
+.favorites:hover{
+
+    transform:translateY(-6px);
+
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer p{
+
+    transition:.3s;
+
+}
+
+footer p:hover{
+
+    letter-spacing:2px;
+
+}
